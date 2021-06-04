@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content input {
+    width: 300px;
+    margin-bottom: 20px;
+    height: 50px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.content button {
+    margin-bottom: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.content button:hover {
+    background-color: rgb(92, 26, 153);
+}
+
+.content h1 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
